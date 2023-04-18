@@ -7,7 +7,7 @@ Citizen.CreateThread(function()
     while true do
         Wait(0)
         coords = GetEntityCoords(ped)
-        dist = #(coords - vector3(478.11, 4813.41, -60.38)) --Coordinates to check
+        dist = #(coords - vector3(-1256.48, -3025.69, -49.5)) --Coordinates to check
         if dist < 4 then --Radius of the area
            if not toggledArea then
               toggledArea = true
